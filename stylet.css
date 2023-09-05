@@ -1,0 +1,54 @@
+a{
+    color: black;
+    text-decoration:none;
+}
+.header{
+    height: 24px;
+    font-family: 'Kosugi', sans-serif;
+    font-size: 32px;
+    background-color: hsl(66, 100%, 90%);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px ;
+}
+.header_item{
+    padding: 10px 10px;
+}
+.header_item:hover{
+    background-color: #f1df8c;
+    border-radius: 8px;
+}
+
+.slider {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .photos {
+    position: relative;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .slider-image {
+    width: 800px;
+    height: 600px;
+  
+    position: absolute;
+    top: 0px;
+  
+    opacity: 0;
+  
+    transition: all 1s;
+  }
+  
+  .show {
+    opacity: 1;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+  }
